@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "김민수",
+    "math": 85,
+    "english": 92,
+    "science": 88
+  },
+  {
+    "id": 2,
+    "name": "이지은",
+    "math": 78,
+    "english": 82,
+    "science": 75
+  },
+  {
+    "id": 3,
+    "name": "박준혁",
+    "math": 95,
+    "english": 88,
+    "science": 91
+  },
+  {
+    "id": 4,
+    "name": "최서연",
+    "math": 68,
+    "english": 72,
+    "science": 70
+  },
+  {
+    "id": 5,
+    "name": "정우진",
+    "math": 90,
+    "english": 85,
+    "science": 87
+  },
+  {
+    "id": 6,
+    "name": "강다은",
+    "math": 82,
+    "english": 79,
+    "science": 84
+  },
+  {
+    "id": 7,
+    "name": "윤성민",
+    "math": 73,
+    "english": 88,
+    "science": 81
+  },
+  {
+    "id": 8,
+    "name": "한소희",
+    "math": 88,
+    "english": 94,
+    "science": 90
+  }
+]

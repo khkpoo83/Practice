@@ -1,0 +1,18 @@
+2026-01-13 10:23:45 [INFO] Server started on 192.168.1.1
+2026-01-13 10:24:12 [INFO] Request from 192.168.1.105 - GET /api/users
+2026-01-13 10:24:15 [INFO] Request from 10.0.0.23 - POST /api/login
+2026-01-13 10:25:33 [ERROR] Connection timeout from 192.168.1.105
+2026-01-13 10:26:01 [INFO] Request from 192.168.1.1 - GET /health
+2026-01-13 10:27:18 [INFO] Request from 10.0.0.45 - GET /api/products
+2026-01-13 10:28:22 [ERROR] Database connection failed from 10.0.0.23
+2026-01-13 10:29:45 [INFO] Request from 192.168.1.105 - GET /api/orders
+2026-01-13 10:30:12 [INFO] Request from 172.16.0.8 - POST /api/checkout
+2026-01-13 10:31:05 [ERROR] Invalid authentication token from 172.16.0.8
+2026-01-13 10:32:33 [INFO] Request from 10.0.0.23 - GET /api/dashboard
+2026-01-13 10:33:21 [INFO] Request from 192.168.1.105 - DELETE /api/cart/123
+2026-01-13 10:34:45 [ERROR] File not found: /images/product.jpg from 10.0.0.45
+2026-01-13 10:35:12 [INFO] Request from 192.168.1.1 - GET /admin
+2026-01-13 10:36:28 [INFO] Request from 172.16.0.15 - PUT /api/profile
+2026-01-13 10:37:44 [ERROR] Memory limit exceeded on server 192.168.1.1
+2026-01-13 10:38:19 [INFO] Request from 10.0.0.23 - GET /api/reports
+2026-01-13 10:39:05 [INFO] Request from 172.16.0.8 - POST /api/feedback
