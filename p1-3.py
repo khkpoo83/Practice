@@ -41,5 +41,20 @@ with open('./Resource/events.json','rt',encoding='utf-8') as f:
         # print(datetime.now()+timedelta(days=-7),datetime.now()-timedelta(days=-7))
         # print(dday,datetime.now()+timedelta(days=-7), datetime.now()-timedelta(days=-7))
         if dday > datetime.now()+timedelta(days=-7) and  dday < datetime.now()-timedelta(days=-7):
-            r['gap']='D-'+str(dday)
-            print(r)
+            if (datetime.now()-dday).days ==0:
+                r['gap']='D-Day'
+            elif (datetime.now()-dday).days > 0:
+                r['gap']='D+'+str((datetime.now()-dday).days)
+            else:
+                r['gap']='D'+str((datetime.now()-dday).days)
+            print(lambda x:0 if r['gap'][2:]=='Day' else int(r['gap'][1:]))
+            targets.append(r)
+    for i in targets:
+        print(i)
+    print('-'*100)
+    sorted_targets=sorted(targets,key=lambda x:0 if x['gap'][2:]=='Day' else int(x['gap'][2:]))
+    for i in sorted_targets:
+        print(i)
+
+with open('./Resource/upcoming_events.json','wt',encoding='UTF-8') as f:
+    json.dump(sorted_targets,f,ensure_ascii=False,indent=2)
